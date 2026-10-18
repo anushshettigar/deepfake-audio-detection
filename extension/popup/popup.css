@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 360px;
+  min-height: 480px;
+  background: #07110d;
+  color: #eafff2;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  padding: 22px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.brand-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b8ffcf;
+  color: #07110d;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.brand p {
+  margin: 4px 0 0;
+  color: #86a996;
+  font-size: 11px;
+}
+
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid #193326;
+  border-radius: 14px;
+  background: #0b1912;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #72ff9b;
+  box-shadow: 0 0 12px #72ff9b;
+}
+
+.status-card strong {
+  display: block;
+  font-size: 13px;
+}
+
+.status-card small {
+  display: block;
+  margin-top: 4px;
+  color: #789384;
+  font-size: 11px;
+}
+
+.result-card {
+  margin-top: 18px;
+  padding: 24px 18px;
+  text-align: center;
+  border: 1px solid #193326;
+  border-radius: 16px;
+  background: linear-gradient(
+    145deg,
+    #0d1d15,
+    #08120d
+  );
+}
+
+.result-label {
+  color: #769482;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+#result {
+  margin: 22px 0 8px;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+#confidence {
+  color: #88a595;
+  font-size: 12px;
+}
+
+.start-button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 14px;
+  border: 0;
+  border-radius: 12px;
+  background: #b8ffcf;
+  color: #07110d;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  filter: brightness(1.05);
+}
+
+.start-button.active {
+  background: #ff7777;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  color: #536d5e;
+  font-size: 9px;
+  letter-spacing: 1px;
+}

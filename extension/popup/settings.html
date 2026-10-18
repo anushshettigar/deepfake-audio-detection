@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepShield Settings</title>
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="settings-container">
+    <header>
+      <h1>DeepShield Settings</h1>
+      <p class="subtitle">Configure API endpoint for live detection</p>
+    </header>
+
+    <section class="setting-group">
+      <label for="backendUrl">Backend API URL</label>
+      <input
+        type="url"
+        id="backendUrl"
+        placeholder="https://api.deepshield.app"
+        value=""
+      >
+      <p class="help-text">The API endpoint for audio analysis. Must be HTTPS for production use.</p>
+    </section>
+
+    <section class="setting-group">
+      <label for="testUrl">Test Connection</label>
+      <button id="testConnection" class="secondary-button">Test API Connection</button>
+      <p id="testResult" class="help-text"></p>
+    </section>
+
+    <section class="setting-group">
+      <label>Current Status</label>
+      <p id="currentUrl" class="current-value">Loading...</p>
+    </section>
+
+    <footer>
+      <p>DeepShield v1.2.0 &mdash; Real-time Deepfake Audio Detection</p>
+    </footer>
+  </div>
+  <script src="settings.js"></script>
+</body>
+</html>

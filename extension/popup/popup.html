@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepShield</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <div class="brand">
+      <div class="brand-icon">DS</div>
+
+      <div>
+        <h1>DEEPSHIELD</h1>
+        <p>Audio Intelligence</p>
+      </div>
+    </div>
+
+    <div class="status-card">
+      <span class="status-dot"></span>
+
+      <div>
+        <strong id="status">Ready</strong>
+        <small id="statusText">
+          Start detection to monitor audio
+        </small>
+      </div>
+    </div>
+
+    <div class="result-card">
+
+      <span class="result-label">
+        LIVE ANALYSIS
+      </span>
+
+      <div id="result">
+        —
+      </div>
+
+      <span id="confidence">
+        Waiting for audio
+      </span>
+
+    </div>
+
+    <button
+      id="startButton"
+      class="start-button"
+    >
+      Start Detection
+    </button>
+
+    <div class="footer">
+      <span>DEEPSHIELD ENGINE</span>
+      <span id="engineStatus">READY</span>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
