@@ -235,44 +235,7 @@ function Info({ onNavigate }) {
           </div>
         </section>
 
-        <section className="info-section team-section">
-          <h2>The Team</h2>
-          <p className="info-lead">DeepShield was built by a dedicated team of cybersecurity and ML engineers.</p>
-
-          <div className="team-grid">
-            <div className="team-card founder">
-              <div className="team-badge">FOUNDER</div>
-              <div className="team-avatar">AS</div>
-              <h3>Anush Kumar Shettigar</h3>
-              <p className="team-role">Founder & Lead Developer</p>
-              <p className="team-bio">Architected the full stack: RawNet2 training pipeline, FastAPI backend, React frontend, Chrome extension, and Supabase infrastructure.</p>
-            </div>
-
-            <div className="team-card cofounder">
-              <div className="team-badge">CO-FOUNDER</div>
-              <div className="team-avatar">MS</div>
-              <h3>Mayur M Suvarna</h3>
-              <p className="team-role">Co-Founder & ML Engineer</p>
-              <p className="team-bio">Designed the PhonemeDF dataset pipeline, implemented data augmentation strategies, and optimized RawNet2 training for speaker/generator disjoint evaluation.</p>
-            </div>
-
-            <div className="team-card ceo">
-              <div className="team-badge">CEO</div>
-              <div className="team-avatar">SB</div>
-              <h3>Shreyas B</h3>
-              <p className="team-role">Chief Executive Officer</p>
-              <p className="team-bio">Product strategy, business development, and go-to-market planning for DeepShield's deployment in enterprise security.</p>
-            </div>
-
-            <div className="team-card security">
-              <div className="team-badge">CYBERSECURITY HEAD</div>
-              <div className="team-avatar">MP</div>
-              <h3>Milan P</h3>
-              <p className="team-role">Head of Cybersecurity</p>
-              <p className="team-bio">Threat modeling, security architecture, penetration testing, and compliance for audio data handling and model deployment.</p>
-            </div>
-          </div>
-        </section>
+        
 
         <section className="info-section">
           <h2>Links & Resources</h2>
